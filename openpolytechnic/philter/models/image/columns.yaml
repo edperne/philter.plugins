@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: ID
+        type: number
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    tags:
+        label: Tags
+        type: text
+        searchable: true
+        sortable: true
+    filter:
+        label: Filter
+        type: text
+        searchable: true
+        sortable: true

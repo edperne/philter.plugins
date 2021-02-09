@@ -1,0 +1,10 @@
+name: Images
+form: $/openpolytechnic/philter/models/image/fields.yaml
+modelClass: Openpolytechnic\Philter\Models\Image
+defaultRedirect: openpolytechnic/philter/images
+create:
+    redirect: 'openpolytechnic/philter/images/update/:id'
+    redirectClose: openpolytechnic/philter/images
+update:
+    redirect: openpolytechnic/philter/images
+    redirectClose: openpolytechnic/philter/images

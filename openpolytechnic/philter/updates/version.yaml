@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table openpolytechnic_philter_images'
+    - builder_table_create_openpolytechnic_philter_images.php
+1.0.3:
+    - 'Updated table openpolytechnic_philter_images'
+    - builder_table_update_openpolytechnic_philter_images.php
+1.0.4:
+    - 'Created table openpolytechnic_philter_tag'
+    - builder_table_create_openpolytechnic_philter_tag.php
+1.0.5:
+    - 'Updated table openpolytechnic_philter_images'
+    - builder_table_update_openpolytechnic_philter_image.php
+1.0.6:
+    - 'Updated table openpolytechnic_philter_image'
+    - builder_table_update_openpolytechnic_philter_images_2.php
+1.0.7:
+    - 'Updated table openpolytechnic_philter_images'
+    - builder_table_update_openpolytechnic_philter_image_2.php
+1.0.8:
+    - 'Created table openpolytechnic_philter_image_tag'
+    - builder_table_create_openpolytechnic_philter_image_tag.php
+1.0.9:
+    - 'Updated table openpolytechnic_philter_image'
+    - builder_table_update_openpolytechnic_philter_image_3.php
+1.0.10:
+    - 'Updated table openpolytechnic_philter_image'
+    - builder_table_update_openpolytechnic_philter_image_4.php
+1.0.11:
+    - 'Updated table openpolytechnic_philter_image'
+    - builder_table_update_openpolytechnic_philter_image_5.php

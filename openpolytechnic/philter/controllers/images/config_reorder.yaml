@@ -1,0 +1,4 @@
+title: Images
+modelClass: Openpolytechnic\Philter\Models\Image
+toolbar:
+    buttons: reorder_toolbar

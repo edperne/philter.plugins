@@ -1,0 +1,64 @@
+fields:
+    name:
+        label: Name
+        span: full
+        required: 1
+        type: text
+    description:
+        label: Description
+        span: full
+        type: text
+    user:
+        label: User
+        nameFrom: name
+        descriptionFrom: description
+        span: full
+        type: relation
+    tags:
+        label: Tag
+        nameFrom: tag
+        descriptionFrom: description
+        span: full
+        type: relation
+    image:
+        label: Image
+        mode: file
+        imageWidth: '640'
+        imageHeight: '420'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    filter:
+        label: Filter
+        span: full
+        options:
+            _1977: '1977'
+            aden: Aden
+            brannan: Brannan
+            brooklyn: Brooklyn
+            clarendon: Clarendon
+            earlybird: Earlybird
+            gingham: Gingham
+            hudson: Hudson
+            inkwell: Inkwell
+            kelvin: Kelvin
+            lark: Lark
+            lofi: Lo-Fi
+            maven: Maven
+            mayfair: Mayfair
+            moon: Moon
+            nashville: Nashville
+            perpetua: Perpetua
+            reyes: Reyes
+            rise: Rise
+            slumber: Slumber
+            stinson: Stinson
+            toaster: Toaster
+            valencia: Valencia
+            walden: Walden
+            willow: Willow
+            xpro2: 'X-pro II'
+        type: dropdown

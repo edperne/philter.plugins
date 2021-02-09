@@ -1,0 +1,15 @@
+plugin:
+    name: 'openpolytechnic.philter::lang.plugin.name'
+    description: 'openpolytechnic.philter::lang.plugin.description'
+    author: OpenPolytechnic
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Images
+        url: openpolytechnic/philter/images
+        icon: icon-photo
+    main-menu-item2:
+        label: Tags
+        url: openpolytechnic/philter/tags
+        icon: icon-quote-left

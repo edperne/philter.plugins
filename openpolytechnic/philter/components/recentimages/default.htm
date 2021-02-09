@@ -1,0 +1,20 @@
+{% set images = __SELF__.images %}
+{% if images %}
+<div class="row">
+    <h2>Latest Images</h2>
+</div>
+<div class="row">
+    <div id="others-images" class="grid">
+        {% for image in images %}
+            <div class="grid-item other">
+                <picture id="image{{ image.id }}">
+                    <img src="{{ image.image.path }}" alt="{{ image.description }}">
+                </picture>
+                <h5>{{ image.name }}</h5>
+                <p>{{ image.description }}</p>
+            </div>
+        {% endfor %}
+        <div class="clearfix"></div>
+    </div>
+</div>
+{% endif %}

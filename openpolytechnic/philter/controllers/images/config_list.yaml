@@ -1,0 +1,12 @@
+list: $/openpolytechnic/philter/models/image/columns.yaml
+modelClass: Openpolytechnic\Philter\Models\Image
+title: Images
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'openpolytechnic/philter/images/update/:id'

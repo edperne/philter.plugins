@@ -210,7 +210,6 @@ class Api
 	 */
     public function updateImage($image_id)
     {			
-
 		/**
 		 * Validate that we have 
 		 * a logged-in user

@@ -9,18 +9,14 @@ $api = new Openpolytechnic\Philter\Classes\Api();
 use Openpolytechnic\Philter\Models\Image;
 use Openpolytechnic\Philter\Models\Tag;
 
-/*
-Route::get('images',function() {
-    $images=image::all();
-    return $images;
-});
-*/
+// get images route
 Route::get('images',function() {
     $images=image::with(['image','image'])->get();
     return $images;
 });
 // end of lisas api connection test
 
+// wildcard route
 Route::options('api/v1/{all}', function($api) {
     if (Request::getMethod() == "OPTIONS") {
         echo('You are connected to the API');
@@ -28,6 +24,7 @@ Route::options('api/v1/{all}', function($api) {
     }
 });
 
+// wildcard route
 Route::options('api/v1/{any}/{all}', function($api) {
     if (Request::getMethod() == "OPTIONS") {
         echo('You are connected to the API');
